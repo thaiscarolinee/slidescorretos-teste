@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    background-color: none;
+    background-color: #fff;
 }
 
 .wrapper {
@@ -40,7 +40,6 @@ body {
 
 .slide-content {
     border-radius: 10px;
-    border: none;
     box-shadow: #070707 0px 12px 12px;
     position: relative;
 }
