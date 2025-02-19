@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    background-color: #1f2029;
+    background-color: none;
 }
 
 .wrapper {
@@ -40,7 +40,7 @@ body {
 
 .slide-content {
     border-radius: 10px;
-    border: 1px solid #fff;
+    border: none;
     box-shadow: #070707 0px 12px 12px;
     position: relative;
 }
@@ -61,22 +61,22 @@ body {
 }
 
 .slide-description h3 {
-    font-family: 'Koulen', sans-serif;
+    font-family: 'sans-serif';
     font-size: 48px;
     position: relative;
-    top: 16px
+    top: -5px
 }
 
 .slide-description p {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
+    font-family: 'sans-serif';
+    font-size: 14px;
 }
 
 .slide-nav-button {
     background: transparent;
     color: #fff;
     cursor: pointer;
-    font-size: 36px;
+    font-size: 10px;
     position: absolute;
     z-index: 1;
 }
@@ -94,15 +94,15 @@ body {
 }
 
 .slide-control-button {
-    color: #fff;
+    color: #797979;
     cursor: pointer;
     background: transparent;
-    font-size: 18px;
+    font-size: 10px;
     margin: 0 5px;
 }
 
 .slide-control-button.active {
-    color: #cd8cf5;
+    color: #3f3f3f;
 }
 
 @media screen and (max-width: 768px) {

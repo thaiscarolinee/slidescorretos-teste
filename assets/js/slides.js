@@ -39,7 +39,7 @@ function setVisibleSlide({ index, animate }) {
     }
     const position = getCenterPosition({ index })
     state.currentSlideIndex = index
-    slideList.style.transition = animate === true ? 'transform .5s' : 'none'
+    slideList.style.transition = animate === true ? 'transform .9s' : 'none'
     activeControlButton({ index })
     translateSlide({position: position})
 }
